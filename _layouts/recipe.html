@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="recipe">
+  <p class="eyebrow">{{ page.protein_source | capitalize }} · {{ page.time_min }} min · {% if page.portions == 2 %}makes 2 portions{% else %}1 portion{% endif %}{% if page.saved %} · ⭐ in cookbook{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  <div class="macros" aria-label="Per portion">
+    <div><b>{{ page.kcal }}</b><span>kcal</span></div>
+    <div class="p"><b>{{ page.protein_g }}g</b><span>protein</span></div>
+    <div><b>{{ page.carbs_g }}g</b><span>carbs</span></div>
+    <div><b>{{ page.fat_g }}g</b><span>fat</span></div>
+  </div>
+  <p class="muted small">Per portion.{% if page.portions == 2 %} Ingredients below make 2 portions: eat one, save one.{% endif %}</p>
+  <h2>Ingredients</h2>
+  <ul class="ingredients">
+  {% for i in page.ingredients %}<li><span class="g">{{ i.g }} g</span><span>{% if i.label %}{{ i.label }}{% else %}{{ i.name }}{% endif %}</span></li>
+  {% endfor %}</ul>
+  <div class="body">{{ content }}</div>
+</article>

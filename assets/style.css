@@ -1,0 +1,70 @@
+:root {
+  --bg: #fbf8f3; --surface: #ffffff; --text: #1d1b18; --muted: #6f6a62;
+  --line: #e7e1d7; --accent: #1f6f4a; --accent-soft: #e3f1e9; --warm: #b4532a; --warm-soft: #fbe9df;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161513; --surface: #201f1c; --text: #f1ede6; --muted: #a39d93;
+    --line: #34312c; --accent: #6fcf9c; --accent-soft: #1f3a2c; --warm: #f0a179; --warm-soft: #3d2a20;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+main { max-width: 680px; margin: 0 auto; padding: 8px 16px 40px; }
+h1 { font-size: 1.7rem; line-height: 1.2; margin: 16px 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 1.15rem; margin: 28px 0 10px; }
+.muted { color: var(--muted); }
+.small { font-size: 0.85rem; }
+
+.top { position: sticky; top: 0; z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 16px; padding-top: max(10px, env(safe-area-inset-top)); }
+.brand { font-weight: 700; text-decoration: none; color: var(--text); white-space: nowrap; }
+.top nav { display: flex; gap: 4px; }
+.top nav a { text-decoration: none; color: var(--muted); padding: 6px 10px; border-radius: 999px; font-size: 0.92rem; }
+.top nav a[aria-current] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+footer { text-align: center; padding: 24px 16px 40px; font-size: 0.9rem; }
+
+.week, .cards, .plain { list-style: none; padding: 0; margin: 16px 0; }
+.night { display: grid; grid-template-columns: 52px 1fr; gap: 10px; align-items: stretch; margin-bottom: 10px; }
+.day { font-weight: 700; text-align: center; padding-top: 12px; }
+.day small { display: block; font-weight: 400; color: var(--muted); font-size: 0.75rem; }
+.card { display: block; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px;
+  text-decoration: none; color: var(--text); }
+.card strong { display: block; font-size: 1.02rem; line-height: 1.3; margin: 4px 0; }
+.card .meta { font-size: 0.88rem; color: var(--muted); }
+.card .meta b { color: var(--accent); font-weight: 600; }
+.night.leftover .card { background: transparent; border-style: dashed; }
+.cards li { margin-bottom: 10px; }
+.tag { display: inline-block; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;
+  padding: 2px 8px; border-radius: 999px; background: var(--line); color: var(--muted); margin-right: 4px; }
+.tag.new { background: var(--accent-soft); color: var(--accent); }
+.tag.fav { background: var(--warm-soft); color: var(--warm); }
+
+.recipe .eyebrow { margin: 16px 0 0; color: var(--muted); font-size: 0.9rem; }
+.macros { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 16px 0 6px; }
+.macros div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 4px; text-align: center; }
+.macros b { display: block; font-size: 1.15rem; }
+.macros span { font-size: 0.75rem; color: var(--muted); }
+.macros .p { background: var(--accent-soft); border-color: transparent; }
+.macros .p b { color: var(--accent); }
+.ingredients, .shop { list-style: none; padding: 0; margin: 0; }
+.ingredients li { display: flex; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.g { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 64px; display: inline-block; }
+.body ol { padding-left: 1.3em; }
+.body ol li { margin-bottom: 12px; }
+
+.shop li { border-bottom: 1px solid var(--line); }
+.shop label { display: flex; align-items: center; gap: 10px; padding: 10px 0; cursor: pointer; }
+.shop input { width: 22px; height: 22px; accent-color: var(--accent); flex: none; }
+.shop input:checked ~ * , .shop label:has(input:checked) { color: var(--muted); text-decoration: line-through; }
+.reset { font: inherit; font-size: 0.85rem; background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 4px 12px; }
+.filter { width: 100%; font: inherit; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--text); margin-top: 12px; }
+
+@media (max-width: 380px) {
+  .brand { display: none; }
+  .top nav { width: 100%; justify-content: space-between; }
+}

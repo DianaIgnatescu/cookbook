@@ -1,0 +1,12 @@
+{
+  "week": "2026-W48",
+  "start": "2026-11-23",
+  "generated": "2026-11-18",
+  "nights": [
+    {"day": "Monday", "date": "2026-11-23", "recipe": "lemon-oregano-traybake-feta-yogurt-chicken", "kind": "cook", "source": "new"},
+    {"day": "Tuesday", "date": "2026-11-24", "recipe": "lemon-oregano-traybake-feta-yogurt-chicken", "kind": "leftover", "source": "new"},
+    {"day": "Wednesday", "date": "2026-11-25", "recipe": "smoky-black-bean-sweet-potatoes-beef", "kind": "cook", "source": "new"},
+    {"day": "Thursday", "date": "2026-11-26", "recipe": "smoky-black-bean-sweet-potatoes-beef", "kind": "leftover", "source": "new"},
+    {"day": "Friday", "date": "2026-11-27", "recipe": "honey-garlic-meatball-rice-bowl-turkey", "kind": "cook", "source": "new"}
+  ]
+}

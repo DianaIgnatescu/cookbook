@@ -1,0 +1,168 @@
+{
+  "week": "2026-W48",
+  "start": "2026-11-23",
+  "aisles": [
+    {
+      "aisle": "Meat & fish",
+      "check_cupboard": false,
+      "items": [
+        {
+          "name": "beef mince 5%",
+          "g": 400
+        },
+        {
+          "name": "chicken thigh",
+          "g": 500
+        },
+        {
+          "name": "turkey mince 5%",
+          "g": 250
+        }
+      ]
+    },
+    {
+      "aisle": "Dairy & eggs",
+      "check_cupboard": false,
+      "items": [
+        {
+          "name": "cheddar",
+          "g": 30
+        },
+        {
+          "name": "feta",
+          "g": 60
+        },
+        {
+          "name": "greek yogurt 0%",
+          "g": 300
+        }
+      ]
+    },
+    {
+      "aisle": "Veg & fruit",
+      "check_cupboard": false,
+      "items": [
+        {
+          "name": "cherry tomatoes",
+          "g": 200
+        },
+        {
+          "name": "cucumber",
+          "g": 100
+        },
+        {
+          "name": "garlic",
+          "g": 30,
+          "approx": "≈ 6 cloves"
+        },
+        {
+          "name": "ginger",
+          "g": 5
+        },
+        {
+          "name": "lemon",
+          "g": 100,
+          "approx": "≈ 1 lemon"
+        },
+        {
+          "name": "onion",
+          "g": 150,
+          "approx": "≈ 1 onion"
+        },
+        {
+          "name": "potatoes",
+          "g": 400
+        },
+        {
+          "name": "red onion",
+          "g": 150,
+          "approx": "≈ 1 red onion"
+        },
+        {
+          "name": "spring onion",
+          "g": 15,
+          "approx": "≈ 1 spring onion"
+        },
+        {
+          "name": "sweet potato",
+          "g": 400,
+          "approx": "≈ 2 sweet potatoes"
+        }
+      ]
+    },
+    {
+      "aisle": "Cupboard",
+      "check_cupboard": false,
+      "items": [
+        {
+          "name": "basmati rice",
+          "g": 70
+        },
+        {
+          "name": "black beans",
+          "g": 160,
+          "approx": "≈ 1 tin"
+        },
+        {
+          "name": "chopped tomatoes",
+          "g": 400,
+          "approx": "≈ 1 tin"
+        },
+        {
+          "name": "cornflour",
+          "g": 5
+        },
+        {
+          "name": "honey",
+          "g": 15
+        },
+        {
+          "name": "red wine vinegar",
+          "g": 5
+        },
+        {
+          "name": "soy sauce",
+          "g": 25
+        },
+        {
+          "name": "tomato puree",
+          "g": 30
+        }
+      ]
+    },
+    {
+      "aisle": "Staples",
+      "check_cupboard": true,
+      "items": [
+        {
+          "name": "black pepper",
+          "g": 1
+        },
+        {
+          "name": "dried oregano",
+          "g": 10
+        },
+        {
+          "name": "ground cumin",
+          "g": 4
+        },
+        {
+          "name": "olive oil",
+          "g": 20
+        },
+        {
+          "name": "salt",
+          "g": 10
+        },
+        {
+          "name": "sesame oil",
+          "g": 3
+        },
+        {
+          "name": "smoked paprika",
+          "g": 10
+        }
+      ]
+    }
+  ]
+}

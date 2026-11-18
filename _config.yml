@@ -1,0 +1,20 @@
+title: Dinner Cookbook
+description: Quick high-protein dinners for one
+baseurl: /cookbook
+markdown: kramdown
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:name/
+defaults:
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: recipe
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
