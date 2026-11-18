@@ -7,16 +7,16 @@
       "check_cupboard": false,
       "items": [
         {
-          "name": "beef mince 5%",
-          "g": 400
+          "name": "beef rump steak",
+          "g": 220
         },
         {
           "name": "chicken thigh",
-          "g": 500
+          "g": 600
         },
         {
           "name": "turkey mince 5%",
-          "g": 250
+          "g": 480
         }
       ]
     },
@@ -29,12 +29,12 @@
           "g": 30
         },
         {
-          "name": "feta",
-          "g": 60
+          "name": "greek yogurt 0%",
+          "g": 100
         },
         {
-          "name": "greek yogurt 0%",
-          "g": 300
+          "name": "kefir",
+          "g": 150
         }
       ]
     },
@@ -43,50 +43,45 @@
       "check_cupboard": false,
       "items": [
         {
-          "name": "cherry tomatoes",
-          "g": 200
+          "name": "baby potatoes",
+          "g": 300
         },
         {
-          "name": "cucumber",
-          "g": 100
+          "name": "cherry tomatoes",
+          "g": 150
         },
         {
           "name": "garlic",
-          "g": 30,
-          "approx": "≈ 6 cloves"
-        },
-        {
-          "name": "ginger",
-          "g": 5
+          "g": 25,
+          "approx": "≈ 4 cloves"
         },
         {
           "name": "lemon",
-          "g": 100,
-          "approx": "≈ 1 lemon"
+          "g": 60,
+          "approx": "≈ 0.5 lemon"
         },
         {
           "name": "onion",
-          "g": 150,
+          "g": 120,
           "approx": "≈ 1 onion"
         },
         {
           "name": "potatoes",
-          "g": 400
+          "g": 500
         },
         {
           "name": "red onion",
-          "g": 150,
+          "g": 120,
           "approx": "≈ 1 red onion"
         },
         {
-          "name": "spring onion",
-          "g": 15,
-          "approx": "≈ 1 spring onion"
+          "name": "spinach",
+          "g": 60
         },
         {
           "name": "sweet potato",
-          "g": 400,
-          "approx": "≈ 2 sweet potatoes"
+          "g": 300,
+          "approx": "≈ 1.5 sweet potatoes"
         }
       ]
     },
@@ -95,38 +90,14 @@
       "check_cupboard": false,
       "items": [
         {
-          "name": "basmati rice",
-          "g": 70
-        },
-        {
-          "name": "black beans",
-          "g": 160,
-          "approx": "≈ 1 tin"
-        },
-        {
           "name": "chopped tomatoes",
           "g": 400,
           "approx": "≈ 1 tin"
         },
         {
-          "name": "cornflour",
-          "g": 5
-        },
-        {
-          "name": "honey",
-          "g": 15
-        },
-        {
-          "name": "red wine vinegar",
-          "g": 5
-        },
-        {
-          "name": "soy sauce",
-          "g": 25
-        },
-        {
-          "name": "tomato puree",
-          "g": 30
+          "name": "kidney beans",
+          "g": 240,
+          "approx": "≈ 1 tin"
         }
       ]
     },
@@ -136,11 +107,11 @@
       "items": [
         {
           "name": "black pepper",
-          "g": 1
+          "g": 2
         },
         {
           "name": "dried oregano",
-          "g": 10
+          "g": 3
         },
         {
           "name": "ground cumin",
@@ -148,19 +119,15 @@
         },
         {
           "name": "olive oil",
-          "g": 20
+          "g": 35
         },
         {
           "name": "salt",
           "g": 10
         },
         {
-          "name": "sesame oil",
-          "g": 3
-        },
-        {
           "name": "smoked paprika",
-          "g": 10
+          "g": 15
         }
       ]
     }
