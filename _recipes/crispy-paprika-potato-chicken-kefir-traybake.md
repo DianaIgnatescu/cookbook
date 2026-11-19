@@ -9,6 +9,7 @@ kcal: 721
 protein_g: 69
 carbs_g: 59
 fat_g: 23
+air_fryer: "Air-fry the potatoes at 200°C for 10 min, then add the seasoned chicken, onion and tomatoes and cook 15–18 min more, shaking halfway, until the chicken hits 75°C inside. Do it in two batches if the basket is crowded. Leftovers reheat in the air fryer at 180°C for 6–8 min."
 ingredients:
   - {name: "chicken thigh", g: 600, label: "skinless boneless chicken thighs (6)"}
   - {name: "potatoes", g: 500, label: "potatoes, cut into 2 cm chunks"}

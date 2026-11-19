@@ -8,15 +8,27 @@
       "items": [
         {
           "name": "beef rump steak",
-          "g": 220
+          "g": 220,
+          "days": [
+            "Wed"
+          ],
+          "note": "rump steak (1)"
         },
         {
           "name": "chicken thigh",
-          "g": 600
+          "g": 600,
+          "days": [
+            "Mon"
+          ],
+          "note": "skinless boneless chicken thighs (6)"
         },
         {
           "name": "turkey mince 5%",
-          "g": 480
+          "g": 480,
+          "days": [
+            "Thu"
+          ],
+          "note": "5% fat turkey mince"
         }
       ]
     },
@@ -26,15 +38,25 @@
       "items": [
         {
           "name": "cheddar",
-          "g": 30
+          "g": 30,
+          "days": [
+            "Thu"
+          ],
+          "note": "cheddar, grated"
         },
         {
           "name": "greek yogurt 0%",
-          "g": 100
+          "g": 100,
+          "days": [
+            "Wed"
+          ]
         },
         {
           "name": "kefir",
-          "g": 150
+          "g": 150,
+          "days": [
+            "Mon"
+          ]
         }
       ]
     },
@@ -44,43 +66,79 @@
       "items": [
         {
           "name": "baby potatoes",
-          "g": 300
+          "g": 300,
+          "days": [
+            "Wed"
+          ],
+          "note": "baby potatoes, halved"
         },
         {
           "name": "cherry tomatoes",
-          "g": 150
+          "g": 150,
+          "days": [
+            "Mon"
+          ]
         },
         {
           "name": "garlic",
           "g": 25,
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu"
+          ],
           "approx": "≈ 4 cloves"
         },
         {
           "name": "lemon",
           "g": 60,
+          "days": [
+            "Mon",
+            "Wed"
+          ],
           "approx": "≈ 0.5 lemon"
         },
         {
           "name": "onion",
           "g": 120,
+          "days": [
+            "Thu"
+          ],
+          "note": "onion, chopped (1)",
           "approx": "≈ 1 onion"
         },
         {
           "name": "potatoes",
-          "g": 500
+          "g": 500,
+          "days": [
+            "Mon"
+          ],
+          "note": "potatoes, cut into 2 cm chunks"
         },
         {
           "name": "red onion",
           "g": 120,
+          "days": [
+            "Mon"
+          ],
+          "note": "red onion, wedges (1)",
           "approx": "≈ 1 red onion"
         },
         {
           "name": "spinach",
-          "g": 60
+          "g": 60,
+          "days": [
+            "Wed"
+          ],
+          "note": "baby spinach (a handful)"
         },
         {
           "name": "sweet potato",
           "g": 300,
+          "days": [
+            "Thu"
+          ],
+          "note": "sweet potato, 1.5 cm cubes (1 large)",
           "approx": "≈ 1.5 sweet potatoes"
         }
       ]
@@ -92,11 +150,19 @@
         {
           "name": "chopped tomatoes",
           "g": 400,
+          "days": [
+            "Thu"
+          ],
+          "note": "chopped tomatoes (1 tin)",
           "approx": "≈ 1 tin"
         },
         {
           "name": "kidney beans",
           "g": 240,
+          "days": [
+            "Thu"
+          ],
+          "note": "kidney beans (1 tin), drained",
           "approx": "≈ 1 tin"
         }
       ]
@@ -107,27 +173,52 @@
       "items": [
         {
           "name": "black pepper",
-          "g": 2
+          "g": 2,
+          "days": [
+            "Mon",
+            "Wed"
+          ]
         },
         {
           "name": "dried oregano",
-          "g": 3
+          "g": 3,
+          "days": [
+            "Mon",
+            "Wed"
+          ]
         },
         {
           "name": "ground cumin",
-          "g": 4
+          "g": 4,
+          "days": [
+            "Thu"
+          ]
         },
         {
           "name": "olive oil",
-          "g": 35
+          "g": 35,
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu"
+          ]
         },
         {
           "name": "salt",
-          "g": 10
+          "g": 10,
+          "days": [
+            "Mon",
+            "Wed",
+            "Thu"
+          ]
         },
         {
           "name": "smoked paprika",
-          "g": 15
+          "g": 15,
+          "days": [
+            "Mon",
+            "Thu"
+          ]
         }
       ]
     }

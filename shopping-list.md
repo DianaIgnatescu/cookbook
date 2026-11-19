@@ -10,7 +10,7 @@ permalink: /shopping-list/
 {% for a in s.aisles %}
 <h2>{{ a.aisle }}{% if a.check_cupboard %} <small class="muted">(check you have)</small>{% endif %}</h2>
 <ul class="shop">
-{% for i in a.items %}<li><label><input type="checkbox" data-key="{{ s.week }}|{{ i.name }}"><span class="g">{{ i.g }} g</span> {{ i.name }}{% if i.approx %} <small class="muted">{{ i.approx }}</small>{% endif %}</label></li>
+{% for i in a.items %}<li><label><input type="checkbox" data-key="{{ s.week }}|{{ i.name }}"><span class="g">{{ i.g }} g</span> {{ i.name }}{% if i.approx %} <small class="muted">{{ i.approx }}</small>{% endif %}{% if i.note or i.days %} <small class="muted note">{% if i.note %}{{ i.note }}{% endif %}{% if i.note and i.days %} · {% endif %}{% if i.days %}{{ i.days | join: ", " }}{% endif %}</small>{% endif %}</label></li>
 {% endfor %}</ul>
 {% endfor %}
 

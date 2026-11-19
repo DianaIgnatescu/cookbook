@@ -17,4 +17,5 @@ layout: default
   {% for i in page.ingredients %}<li><span class="g">{{ i.g }} g</span><span>{% if i.label %}{{ i.label }}{% else %}{{ i.name }}{% endif %}</span></li>
   {% endfor %}</ul>
   <div class="body">{{ content }}</div>
+  {% if page.air_fryer %}<p class="airfryer"><b>🌀 Air fryer:</b> {{ page.air_fryer }}</p>{% endif %}
 </article>

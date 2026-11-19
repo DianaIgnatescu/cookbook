@@ -68,3 +68,6 @@ footer { text-align: center; padding: 24px 16px 40px; font-size: 0.9rem; }
   .brand { display: none; }
   .top nav { width: 100%; justify-content: space-between; }
 }
+.airfryer { background: var(--accent-soft); border-radius: 12px; padding: 10px 14px; margin-top: 20px; }
+.shop label { flex-wrap: wrap; }
+.shop .note { flex-basis: 100%; padding-left: 32px; margin-top: -6px; }

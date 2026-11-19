@@ -9,6 +9,7 @@ kcal: 702
 protein_g: 66
 carbs_g: 56
 fat_g: 24
+air_fryer: "Air-fry the oiled potatoes at 200°C for 18–20 min, shaking halfway. Cook the steak in the pan as written, or air-fry at 200°C for 4–5 min per side, then rest."
 ingredients:
   - {name: "beef rump steak", g: 220, label: "rump steak (1)"}
   - {name: "baby potatoes", g: 300, label: "baby potatoes, halved"}
