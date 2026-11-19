@@ -3,7 +3,7 @@ title: "Cheesy Smoky Turkey & Bean Bake"
 protein_source: turkey
 time_min: 40
 portions: 2
-saved: false
+saved: true
 first_suggested: 2026-11-23
 kcal: 718
 protein_g: 67

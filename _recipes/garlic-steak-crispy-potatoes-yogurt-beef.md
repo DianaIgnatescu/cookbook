@@ -3,7 +3,7 @@ title: "Garlic Steak with Crispy Baby Potatoes & Lemony Yogurt"
 protein_source: beef
 time_min: 30
 portions: 1
-saved: false
+saved: true
 first_suggested: 2026-11-23
 kcal: 702
 protein_g: 66

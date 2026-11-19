@@ -3,7 +3,7 @@ title: "Crispy Paprika Chicken & Potato Traybake with Garlic Kefir Drizzle"
 protein_source: chicken
 time_min: 45
 portions: 2
-saved: false
+saved: true
 first_suggested: 2026-11-23
 kcal: 721
 protein_g: 69
