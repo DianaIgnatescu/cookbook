@@ -8,6 +8,13 @@
 <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 <meta name="apple-mobile-web-app-title" content="Dinners">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<link rel="apple-touch-icon" href="{{ '/assets/icon-180.png' | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/assets/icon-180.png' | relative_url }}">
+<link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
 </head>
 <body>
 <header class="top">
@@ -15,7 +22,7 @@
   <nav>
     <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>This week</a>
     <a href="{{ '/shopping-list/' | relative_url }}" {% if page.url contains 'shopping' %}aria-current="page"{% endif %}>Shopping</a>
-    <a href="{{ '/cookbook/' | relative_url }}" {% if page.url contains 'cookbook' %}aria-current="page"{% endif %}>Cookbook</a>
+    <a href="{{ '/cookbook/' | relative_url }}" {% if page.url contains 'cookbook' or page.collection == 'recipes' %}aria-current="page"{% endif %}>Cookbook</a>
   </nav>
 </header>
 <main>

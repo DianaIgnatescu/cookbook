@@ -7,7 +7,7 @@ permalink: /cookbook/
 <p class="muted">{{ saved.size }} saved recipe{% if saved.size != 1 %}s{% endif %}. Ask in Claude to save more.</p>
 <input class="filter" type="search" id="q" placeholder="Search: chicken, potato, feta…" aria-label="Search recipes">
 <ul class="cards" id="list">
-{% for r in saved %}<li data-text="{{ r.title | downcase }} {{ r.protein_source }} {% for i in r.ingredients %}{{ i.name }} {% endfor %}">
+{% for r in saved %}<li data-text="{{ r.title | downcase | escape }} {{ r.protein_source | escape }} {% for i in r.ingredients %}{{ i.name | escape }} {% endfor %}">
   <a class="card" href="{{ r.url | relative_url }}">
     <span class="tag">{{ r.protein_source | capitalize }}</span>
     <strong>{{ r.title }}</strong>

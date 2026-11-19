@@ -1,0 +1,14 @@
+---
+layout: null
+---
+{
+  "name": "Dinner Cookbook",
+  "short_name": "Dinners",
+  "start_url": "{{ '/' | relative_url }}",
+  "scope": "{{ '/' | relative_url }}",
+  "display": "standalone",
+  "background_color": "#fbf8f3",
+  "theme_color": "#1f6f4a",
+  "icons": [{"src": "{{ '/assets/icon-180.png' | relative_url }}", "sizes": "180x180", "type": "image/png"},
+            {"src": "{{ '/assets/icon-512.png' | relative_url }}", "sizes": "512x512", "type": "image/png"}]
+}
